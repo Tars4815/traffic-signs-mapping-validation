@@ -47,7 +47,11 @@ The designated tools should be installable on smartphones or tablet devices and 
 
 The data collected with both applications were reviewed in QGIS environment in a validation phase aimed at identifying differences between the dataset, their completeness, their position accuracy and their coherence with a ground truth represented by photos of corresponding traffic signs taken on field with mobile devices. First, the validation consisted in checking if the mapped elements were located within buffers calculated along the surveyed streets and then evaluating the coherence between the street code inserted in the element field and the one of the roads in whose buffer such sign is included. Hence, a similar approach was  adopted for comparing the value of municipality associated to the single traffic sign to the administrative boundaries within which it falls. A semantic validation on the traffic sign type documented with the mobile mapping was conducted by comparing values with what was depicted in photos taken on field. The entire validation routine process was automatized as much as possible with Python scripts using the PyQGIS library.
 
-## **Conclusions**
+## **Data Sources**
+
+Data aboout provincial roads and Piacenza municipalities boundaries are openly available on the official [Provincia di Piacenza Road Cadastre](https://catastostrade.provincia.pc.it/lizmap/lizmap/www/index.php/view/map/?repository=progettipubblici&project=catasto_strade_pub) WebGIS platform.
+
+Example of data collected on field by test operators using ODK Collect can be found in the [odk-collect/data](https://github.com/labmgf-polimi/road-cadastre-traffic-signs/tree/main/odk-collect) folder.
 
 [...]
 
